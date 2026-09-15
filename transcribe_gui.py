@@ -236,7 +236,7 @@ def diarize_audio(source: Path, token: str, status: queue.Queue[tuple[str, Any]]
         import torch
         from pyannote.audio import Pipeline
     except ImportError as error:
-        raise RuntimeError("Компонент определения спикеров не установлен. Запустите setup_speakers.bat один раз.") from error
+        raise RuntimeError("Компонент определения спикеров не установлен. Запустите setup.bat ещё раз.") from error
 
     add_bundled_ffmpeg_to_path()
     ensure_background_output_streams()

@@ -1,5 +1,5 @@
 param(
-    [string]$Version = "0.1.0"
+    [string]$Version = "0.2.0"
 )
 
 $ErrorActionPreference = "Stop"
@@ -14,7 +14,6 @@ $names = @(
     ".gitignore",
     "requirements.txt",
     "setup.bat",
-    "setup_speakers.bat",
     "start.bat",
     "audio_converter.bat",
     "transcribe_gui.py",
