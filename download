@@ -1,0 +1,15 @@
+.venv/
+.tmp/
+.converter_temp/
+.speaker_models/
+Готовые MP3/
+dist/
+__pycache__/
+*.py[cod]
+*.mp3
+*.wav
+*.m4a
+*.mp4
+*.mkv
+*.mov
+*.avi
